@@ -40,7 +40,7 @@ class BaixarArquivo:
                 arquivo.write(self.__arquivo_tmp.content)
                     
             
-
+# Função para tratar caractéres que não são aceitos pelo windows
 def tratar_caracteres_indevidos(texto):
     texto = texto\
     .replace("\\","")\
